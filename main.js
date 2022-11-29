@@ -673,7 +673,7 @@ async function poe() {
 					// adapter.log.info (varbinds[i].oid + "|" + varbinds[i].value);
 					var oids = varbinds[i].oid;
 					oids = oids.replace(/\./g, '_');
-					oids = "poe." + varbinds[i].value + "." + oids;
+					oids = "poe." + "." + oids;
 					await adapter.setObjectNotExistsAsync(oids, {type: 'state', common: {name: 'poeAdminEnable', type: 'string', role: 'value', read: true, write: false}, native: {}, });								 
 					adapter.setState(oids, varbinds[i].value.toString(), true);	
 					adapter.subscribeStates(oids);
@@ -685,7 +685,7 @@ async function poe() {
 
 					oiddetectionstatusvalue = oiddetectionstatus;
 					oiddetectionstatusvaluee = oiddetectionstatusvalue.replace(/\./g, '_');
-					oiddetectionstatusvaluee = "poe." + varbinds[i].value + "." + oiddetectionstatusvaluee;
+					oiddetectionstatusvaluee = "poe." + "." + oiddetectionstatusvaluee;
 					await adapter.setObjectNotExistsAsync(oiddetectionstatusvaluee, {type: 'state', common: {name: 'poeDetectionStatus', type: 'string', role: 'value', read: true, write: false}, native: {}, });									
 							
 
@@ -706,7 +706,7 @@ async function poe() {
 
 					oidpowerclassificationsvalue = oidpowerclassifications;
 					oidpowerclassificationsvaluee = oidpowerclassificationsvalue.replace(/\./g, '_');
-					oidpowerclassificationsvaluee = "poe." + varbinds[i].value + "." + oidpowerclassificationsvaluee;
+					oidpowerclassificationsvaluee = "poe." + "." + oidpowerclassificationsvaluee;
 					await adapter.setObjectNotExistsAsync(oidpowerclassificationsvaluee, {type: 'state', common: {name: 'poePowerClassifications', type: 'string', role: 'value', read: true, write: false}, native: {}, });									
 							
 
