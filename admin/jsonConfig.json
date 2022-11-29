@@ -1,0 +1,16 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"ipadresse": {
+			"type": "text",
+			"label": "ipadresse",
+			"newLine": true
+		},
+		"private": {
+			"type": "text",
+			"label": "private",
+			"newLine": true
+		}
+	}
+}

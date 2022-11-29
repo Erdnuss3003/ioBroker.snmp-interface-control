@@ -1,0 +1,86 @@
+{
+	"common": {
+		"name": "snmp-interface-control",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "SNMP-Interface-Control",
+		"titleLang": {
+			"en": "SNMP-Interface-Control",
+			"de": "SNMP-Interface-Control",
+			"ru": "SNMP-Interface-Control",
+			"pt": "SNMP-Interface-Control",
+			"nl": "SNMP-Interface-Control",
+			"fr": "SNMP-Interface-Control",
+			"it": "SNMP-Interface-Control",
+			"es": "SNMP-Interface-Control",
+			"pl": "SNMP-Interface-Control",
+			"zh-cn": "SNMP-Interface-Control"
+		},
+		"desc": {
+			"en": "Allows to read and control switch interface via SNMP",
+			"de": "Allows to read and control switch interface via SNMP",
+			"ru": "Allows to read and control switch interface via SNMP",
+			"pt": "Allows to read and control switch interface via SNMP",
+			"nl": "Allows to read and control switch interface via SNMP",
+			"fr": "Allows to read and control switch interface via SNMP",
+			"it": "Allows to read and control switch interface via SNMP",
+			"es": "Allows to read and control switch interface via SNMP",
+			"pl": "Allows to read and control switch interface via SNMP",
+			"zh-cn": "Allows to read and control switch interface via SNMP"
+		},
+		"authors": [
+			"Erdnuss3003 <christophweber2@gmx.de>"
+		],
+		"keywords": [
+			"SNMP",
+			"Switch",
+			"Interface"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "snmp-interface-control.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Erdnuss3003/ioBroker.snmp-interface-control/main/admin/snmp-interface-control.png",
+		"readme": "https://github.com/Erdnuss3003/ioBroker.snmp-interface-control/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "infrastructure",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"supportCustoms": true,
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"ipadresse": "",
+		"private": ""
+	},
+	"objects": [],
+	"instanceObjects": []
+}
