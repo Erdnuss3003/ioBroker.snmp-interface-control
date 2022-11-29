@@ -1,7 +1,12 @@
 {
-	"i18n": true,
-	"type": "panel",
-	"items": {
+    "i18n": true,	
+    "type": "tabs",
+    "items": {
+        "tab1": {
+            "type": "panel",
+            "label": "Tab1",
+            "icon": "base64 svg", // optional
+            "items": {
 		"ipadresse": {
 			"type": "text",
 			"label": "ipadresse",
@@ -12,5 +17,24 @@
 			"label": "private",
 			"newLine": true
 		}
-	}
+	   }
+        },
+        "tab1": {
+            "type": "panel",
+            "label": "Tab1",
+            "icon": "base64 svg", // optional
+            "items": {
+		"ipadresse": {
+			"type": "text",
+			"label": "ipadresse",
+			"newLine": true
+		},
+		"private": {
+			"type": "text",
+			"label": "private",
+			"newLine": true
+		}
+	   }
+        },
+    },    
 }
