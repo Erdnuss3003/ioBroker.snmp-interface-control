@@ -13,8 +13,7 @@ let adapter;
 function startAdapter(options) {
    
     return adapter = utils.adapter(Object.assign({}, options, {
-        name: 'snmp-interface-control
-',
+        name: 'snmp-interface-control',
 		
         ready: dataPolling, 
 		
