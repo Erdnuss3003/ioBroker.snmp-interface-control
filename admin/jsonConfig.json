@@ -33,7 +33,11 @@
 			"type": "text",
 			"label": "private",
 			"newLine": true
-		}
+		},
+		"myBool": {
+                    "type": "checkbox",
+                    "label": "My checkbox",
+                }
 	   }
         },
     },    
