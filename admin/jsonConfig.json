@@ -37,6 +37,7 @@
 		"myBool": {
                     "type": "checkbox",
                     "label": "My checkbox",
+		    "newLine": true
                 }
 	   }
         },
