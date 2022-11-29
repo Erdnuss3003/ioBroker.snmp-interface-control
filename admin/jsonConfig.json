@@ -173,29 +173,19 @@
             "label": "PoE",
             "icon": "base64 svg", // optional
             "items": {
-	       "sysdescr": {
+	       "poeadminenable": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "poeadminenable",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"poedetectionstatus": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "poedetectionstatus",
 		    "newLine": true
                 },
-		"syscontact": {
+		"poepowerclassifications": {
                     "type": "checkbox",
-                    "label": "syscontact",
-		    "newLine": true
-                },
-	    	"sysname": {
-                    "type": "checkbox",
-                    "label": "sysname",
-		    "newLine": true
-                },
-	        "syslocation": {
-                    "type": "checkbox",
-                    "label": "syslocation",
+                    "label": "poepowerclassifications",
 		    "newLine": true
                 }
 	   }
