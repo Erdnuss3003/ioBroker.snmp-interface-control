@@ -44,13 +44,13 @@ Die Interfaces können Hardware, Systeminterne oder VLAN Interfaces sein.
 | ifLastChange			| Uptime vom Interface       										|
 | ifInOctets			| Eingegangene Octets         										|
 | ifInUcastPkts      	| Eingegangene Unicast Pakete      									|
-| ifInNUcastPkts		| Eingegangene Unknon Unicast Pakete (veraltet)						|
+| ifInNUcastPkts		| Eingegangene Unknown Unicast Pakete (veraltet)						|
 | ifInDiscards       	| Eingegangene verworfene Pakete          							|
 | ifInErrors			| Eingegangene fehlerhafte Pakete        							|
 | ifInUnknownProtos		| Eingegangene verworfene Pakete (nicht unterstütztes Protokoll)	|
 | ifOutOctets      		| Ausgegangene Octets        										|
 | ifOutUcastPkts		| Ausgegangene Unicast Pakete  										|
-| ifOutNUcastPkts       | Ausgegangene Unknon Unicast Pakete (veraltet)						|
+| ifOutNUcastPkts       | Ausgegangene Unknown Unicast Pakete (veraltet)						|
 | ifOutDiscards			| Ausgegangene verworfene Pakete          							|        													
 | ifOutErrors			| Ausgegangene fehlerhafte Pakete        							|
 | ifOutQLen				| Ausgehende Pakete in Warteschlage	(veraltet)						|
