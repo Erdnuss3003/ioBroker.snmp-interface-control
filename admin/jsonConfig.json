@@ -58,33 +58,27 @@
             "items": {
 	       "ifindex": {
                     "type": "checkbox",
-                    "label": "ifindex",
-		    "newLine": true
+                    "label": "ifindex"
                 },
 		"ifdescr": {
                     "type": "checkbox",
-                    "label": "ifdescr",
-		    "newLine": true
+                    "label": "ifdescr"
                 },
 		"iftype": {
                     "type": "checkbox",
-                    "label": "iftype",
-		    "newLine": true
+                    "label": "iftype"
                 },
 		"ifmtu": {
                     "type": "checkbox",
-                    "label": "ifmtu",
-		    "newLine": true
+                    "label": "ifmtu"
                 },
 		"ifspeed": {
                     "type": "checkbox",
-                    "label": "ifspeed",
-		    "newLine": true
+                    "label": "ifspeed"
                 },
 		"ifphysaddress": {
                     "type": "checkbox",
-                    "label": "ifphysaddress",
-		    "newLine": true
+                    "label": "ifphysaddress"
                 },
 		"sysdescr": {
                     "type": "checkbox",
