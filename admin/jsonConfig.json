@@ -56,7 +56,17 @@
             "label": "Interfaces",
             "icon": "base64 svg", // optional
             "items": {
-	       "sysdescr": {
+	       "ifindex": {
+                    "type": "checkbox",
+                    "label": "ifindex",
+		    "newLine": true
+                },
+		"ifdescr": {
+                    "type": "checkbox",
+                    "label": "ifdescr",
+		    "newLine": true
+                },
+		"sysdescr": {
                     "type": "checkbox",
                     "label": "sysdescr",
 		    "newLine": true
@@ -66,21 +76,96 @@
                     "label": "sysuptime",
 		    "newLine": true
                 },
-		"syscontact": {
+		"sysdescr": {
                     "type": "checkbox",
-                    "label": "syscontact",
+                    "label": "sysdescr",
 		    "newLine": true
                 },
-	    	"sysname": {
+		"sysuptime": {
                     "type": "checkbox",
-                    "label": "sysname",
+                    "label": "sysuptime",
 		    "newLine": true
                 },
-	        "syslocation": {
+		"sysdescr": {
                     "type": "checkbox",
-                    "label": "syslocation",
+                    "label": "sysdescr",
 		    "newLine": true
                 },
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                },
+		"sysdescr": {
+                    "type": "checkbox",
+                    "label": "sysdescr",
+		    "newLine": true
+                },
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                },
+		"sysdescr": {
+                    "type": "checkbox",
+                    "label": "sysdescr",
+		    "newLine": true
+                },
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                },
+		"sysdescr": {
+                    "type": "checkbox",
+                    "label": "sysdescr",
+		    "newLine": true
+                },
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                },
+		"sysdescr": {
+                    "type": "checkbox",
+                    "label": "sysdescr",
+		    "newLine": true
+                },
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                },
+		"sysdescr": {
+                    "type": "checkbox",
+                    "label": "sysdescr",
+		    "newLine": true
+                },
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                },
+		"sysdescr": {
+                    "type": "checkbox",
+                    "label": "sysdescr",
+		    "newLine": true
+                },
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                },
+		"sysdescr": {
+                    "type": "checkbox",
+                    "label": "sysdescr",
+		    "newLine": true
+                },
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                },		    
 	   }
         },
 	"tab4": {
