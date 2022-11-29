@@ -51,7 +51,7 @@
                 },
 	   }
         },"
-	tab2": {
+	tab3": {
             "type": "panel",
             "label": "Interfaces",
             "icon": "base64 svg", // optional
@@ -83,7 +83,7 @@
                 },
 	   }
         },
-	"tab2": {
+	"tab4": {
             "type": "panel",
             "label": "PoE",
             "icon": "base64 svg", // optional
