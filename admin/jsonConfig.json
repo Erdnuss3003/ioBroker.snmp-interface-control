@@ -4,7 +4,7 @@
     "items": {
         "tab1": {
             "type": "panel",
-            "label": "Tab1",
+            "label": "Main",
             "icon": "base64 svg", // optional
             "items": {
 		"ipadresse": {
@@ -21,7 +21,39 @@
         },
         "tab2": {
             "type": "panel",
-            "label": "Tab2",
+            "label": "System",
+            "icon": "base64 svg", // optional
+            "items": {
+	       "sysdescr": {
+                    "type": "checkbox",
+                    "label": "sysdescr",
+		    "newLine": true
+                },
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                },
+		"syscontact": {
+                    "type": "checkbox",
+                    "label": "syscontact",
+		    "newLine": true
+                },
+	    	"sysname": {
+                    "type": "checkbox",
+                    "label": "sysname",
+		    "newLine": true
+                },
+	        "syslocation": {
+                    "type": "checkbox",
+                    "label": "syslocation",
+		    "newLine": true
+                },
+	   }
+        },"
+	tab2": {
+            "type": "panel",
+            "label": "Interfaces",
             "icon": "base64 svg", // optional
             "items": {
 	       "sysdescr": {
@@ -51,5 +83,37 @@
                 },
 	   }
         },
+	"tab2": {
+            "type": "panel",
+            "label": "PoE",
+            "icon": "base64 svg", // optional
+            "items": {
+	       "sysdescr": {
+                    "type": "checkbox",
+                    "label": "sysdescr",
+		    "newLine": true
+                },
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                },
+		"syscontact": {
+                    "type": "checkbox",
+                    "label": "syscontact",
+		    "newLine": true
+                },
+	    	"sysname": {
+                    "type": "checkbox",
+                    "label": "sysname",
+		    "newLine": true
+                },
+	        "syslocation": {
+                    "type": "checkbox",
+                    "label": "syslocation",
+		    "newLine": true
+                },
+	   }
+        },	    
     },    
 }
