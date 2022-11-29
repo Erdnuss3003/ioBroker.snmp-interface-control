@@ -50,8 +50,8 @@
 		    "newLine": true
                 },
 	   }
-        },"
-	tab3": {
+        },
+	"tab3": {
             "type": "panel",
             "label": "Interfaces",
             "icon": "base64 svg", // optional
@@ -112,8 +112,8 @@
                     "type": "checkbox",
                     "label": "syslocation",
 		    "newLine": true
-                },
+                }
 	   }
-        },	    
-    },    
+        }	    
+    }    
 }
