@@ -80,84 +80,84 @@
                     "type": "checkbox",
                     "label": "ifphysaddress"
                 },
-		"sysdescr": {
+		"ifadminstatus": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "ifadminstatus",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"ifoperstatus": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "ifoperstatus",
 		    "newLine": true
                 },
-		"sysdescr": {
+		"iflastchange": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "iflastchange",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"ifinoctets": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "ifinoctets",
 		    "newLine": true
                 },
-		"sysdescr": {
+		"ifinucastpkts": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "ifinucastpkts",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"ifinuncastpkts": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "ifinuncastpkts",
 		    "newLine": true
                 },
-		"sysdescr": {
+		"ifindiscards": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "ifindiscards",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"ifinerrors": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "ifinerrors",
 		    "newLine": true
                 },
-		"sysdescr": {
+		"ifinunknownprotos": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "ifinunknownprotos",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"ifoutoctets": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "ifoutoctets",
 		    "newLine": true
                 },
-		"sysdescr": {
+		"ifoutucastpkts": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "ifoutucastpkts",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"ifoutnucastpkts": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "ifoutnucastpkts",
 		    "newLine": true
                 },
-		"sysdescr": {
+		"ifoutdiscards": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "ifoutdiscards",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"ifouterrors": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "ifouterrors",
 		    "newLine": true
                 },
-		"sysdescr": {
+		"ifoutqlen": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "ifoutqlen",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"ifspecific": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "ifspecific",
 		    "newLine": true
                 },		    
 	   }
