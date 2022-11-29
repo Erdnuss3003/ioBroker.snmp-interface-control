@@ -66,24 +66,24 @@
                     "label": "ifdescr",
 		    "newLine": true
                 },
-		"sysdescr": {
+		"iftype": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "iftype",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"ifmtu": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "ifmtu",
 		    "newLine": true
                 },
-		"sysdescr": {
+		"ifspeed": {
                     "type": "checkbox",
-                    "label": "sysdescr",
+                    "label": "ifspeed",
 		    "newLine": true
                 },
-		"sysuptime": {
+		"ifphysaddress": {
                     "type": "checkbox",
-                    "label": "sysuptime",
+                    "label": "ifphysaddress",
 		    "newLine": true
                 },
 		"sysdescr": {
