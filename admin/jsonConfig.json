@@ -24,19 +24,29 @@
             "label": "Tab2",
             "icon": "base64 svg", // optional
             "items": {
-		"ipadresse": {
-			"type": "text",
-			"label": "ipadresse",
-			"newLine": true
-		},
-		"private": {
-			"type": "text",
-			"label": "private",
-			"newLine": true
-		},
-		"myBool": {
+	       "sysdescr": {
                     "type": "checkbox",
-                    "label": "My checkbox",
+                    "label": "sysdescr",
+		    "newLine": true
+                }
+		"sysuptime": {
+                    "type": "checkbox",
+                    "label": "sysuptime",
+		    "newLine": true
+                }
+		"syscontact": {
+                    "type": "checkbox",
+                    "label": "syscontact",
+		    "newLine": true
+                }
+	    	"sysname": {
+                    "type": "checkbox",
+                    "label": "sysname",
+		    "newLine": true
+                }
+	        "syslocation": {
+                    "type": "checkbox",
+                    "label": "syslocation",
 		    "newLine": true
                 }
 	   }
