@@ -10,7 +10,7 @@
 
 **Tests:** ![Test and Release](https://github.com/Erdnuss3003/ioBroker.snmp-interface-control/workflows/Test%20and%20Release/badge.svg)
 
-## SNMP Netzwork Switch Control adapter for ioBroker
+## SNMP Interface Control Adapter für ioBroker
 
 Dieser Adaptere für ioBroker ermöglicht es Netzwerk Switche via SNMP auszulesen und zu steuern.
 Vorraussetzung ist das die Geräte SNMP v2c unterstützen.
