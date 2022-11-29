@@ -19,9 +19,9 @@
 		}
 	   }
         },
-        "tab1": {
+        "tab2": {
             "type": "panel",
-            "label": "Tab1",
+            "label": "Tab2",
             "icon": "base64 svg", // optional
             "items": {
 		"ipadresse": {
