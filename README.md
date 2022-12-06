@@ -56,7 +56,7 @@ Die Interfaces können Hardware, Systeminterne oder VLAN Interfaces sein.
 | ifOutQLen				| Ausgehende Pakete in Warteschlage	(veraltet)						|
 | ifSpecific			| Verweis auf spezifische SNMP MIBs									|
 
-### System
+### PoE
 
 | Name                	| Beschreibung             											|
 |:------------------    |:-------------------      											|
