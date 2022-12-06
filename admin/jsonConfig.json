@@ -14,7 +14,7 @@
 		},
 		"snmpcommunity": {
 			"type": "text",
-			"label": "private",
+			"label": "snmpcommunity",
 			"newLine": true
 		}
 	   }
