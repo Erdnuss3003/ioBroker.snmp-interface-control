@@ -56,6 +56,15 @@ Die Interfaces können Hardware, Systeminterne oder VLAN Interfaces sein.
 | ifOutQLen				| Ausgehende Pakete in Warteschlage	(veraltet)						|
 | ifSpecific			| Verweis auf spezifische SNMP MIBs									|
 
+### System
+
+| Name                	| Beschreibung             											|
+|:------------------    |:-------------------      											|
+| poePowerClassifications	     		| PoE Klasse class0 (1) class1 (2) class2 (3) class3 (4) class4 (5) |
+| poeAdminEnable				| Admin Status true (1) false (2)       		|
+| poeDetectionStatus       		| PoE Status disabled (1) searching (2) deliveringPower (3) fault (4) test (5) otherFault (6)  |
+
+
 ## Changelog
 
 ### 0.0.1
