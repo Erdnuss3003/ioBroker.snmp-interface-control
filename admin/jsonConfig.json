@@ -22,7 +22,7 @@
         "tab2": {
             "type": "panel",
             "label": "System",
-            "icon": "base64 svg", // optional
+            "icon": "base64 svg",
             "items": {
 	       "sysdescr": {
                     "type": "checkbox",
