@@ -5,7 +5,7 @@
         "tab1": {
             "type": "panel",
             "label": "Main",
-            "icon": "base64 svg", // optional
+            "icon": "base64 svg",
             "items": {
 		"ipadresse": {
 			"type": "text",
@@ -54,7 +54,7 @@
 	"tab3": {
             "type": "panel",
             "label": "Interfaces",
-            "icon": "base64 svg", // optional
+            "icon": "base64 svg",
             "items": {
 	       "ifindex": {
                     "type": "checkbox",
@@ -171,7 +171,7 @@
 	"tab4": {
             "type": "panel",
             "label": "PoE",
-            "icon": "base64 svg", // optional
+            "icon": "base64 svg",
             "items": {
 	       "poeadminenable": {
                     "type": "checkbox",
