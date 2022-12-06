@@ -12,7 +12,7 @@
 			"label": "ipadresse",
 			"newLine": true
 		},
-		"private": {
+		"snmpcommunity": {
 			"type": "text",
 			"label": "private",
 			"newLine": true
