@@ -78,8 +78,8 @@
 		]
 	},
 	"native": {
-		"ipadresse": "",
-		"private": ""
+		"ipadresse": "192.168.0.1",
+		"snmpcommunity": "private"
 	},
 	"objects": [],
 	"instanceObjects": []
